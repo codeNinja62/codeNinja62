@@ -1,7 +1,5 @@
 # 💫 About Me:
-I'm currently working on passion projects for myself at present<br>I'm looking to collaborate on Data Science and AI/ML projects<br>I'm not looking for help at the moment<br>I'm currently supplementing my knowledge on everything ML and AI.<br>You can ask me about any tech query, I've taken on almost everytype of project<br>Fun Fact:<br>You can talk to me about anything and we can hold a conversation like I know exactly what we're talking about, while I have no clue about the topic at hand.
-
-
+Don't talk to me unless necessary.
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/sameerahmedmle) 
 
