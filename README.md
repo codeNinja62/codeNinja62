@@ -84,12 +84,4 @@ const char* active_projects[] = {
 
 [ **Email:** sameer.cs@proton.me ] :: [ **LinkedIn:** linkedin.com/in/sameerexplorer ](https://www.google.com/search?q=https://linkedin.com/in/sameerexplorer) :: [ **Portfolio:** sameer.pk ](https://sameer.pk)
 
-```
 
-### 🔍 Changes Explained:
-1.  **Removed Verilog:** In the `SparseFlow` section, I changed it to "Cycle-Accurate Simulator" and listed `Stack: C++17`. Now you are safe from hardware design questions.
-2.  **Aligned SentinelFS:** I updated the metrics to match your resume ("11x Performance Gain", "Rewriting Python to C"). This shows consistency.
-3.  **Added Linux Project:** I swapped the "C-Subset Compiler" (which had a broken link) for your **Embedded Linux Distro**. This aligns with your "Motive/Embedded" job hunt.
-4.  **Fixed Links:** The LinkedIn and Stats links are now direct and clean. I also switched the theme to `dark` to match your website's aesthetic.
-
-```
