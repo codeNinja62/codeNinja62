@@ -63,7 +63,7 @@ const char* active_projects[] = {
 * **Metric:** **11x Performance Gain** achieved by rewriting core logic from Python to C; < 7MB Memory Footprint.
 * **Stack:** C (libfuse3), Linux API
 
-#### [Minimalist Embedded Distro](https://www.google.com/search?q=https://github.com/codeNinja62/YOUR_REPO_HERE)
+#### [Minimalist Embedded Distro](https://www.google.com/search?q=https://github.com/codeNinja62/minilinux)
 
 > *OS Development*
 
@@ -77,11 +77,8 @@ const char* active_projects[] = {
 ### 0x04 // Connectivity & Metrics
 
 <p align="left">
-<img src="https://github-readme-stats-three-vert-20.vercel.app/api?username=codeNinja62&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true&" alt="GitHub Stats" height="165" />
-<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3DcodeNinja62%26layout%3Dcompact%26theme%3Dtransparent%26hide_border%3Dtrue%26langs_count%3D6%26hide%3Dhtml,css,jupyter%2520notebook" alt="Top Languages" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=codeNinja62&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true" alt="GitHub Stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codeNinja62&layout=compact&theme=transparent&hide_border=true&langs_count=6&hide=html,css,jupyter%20notebook" alt="Top Languages" height="165" />
 </p>
 
-
-[ **Email:** sameer.cs@proton.me ] :: [ **LinkedIn:** linkedin.com/in/sameerexplorer ](https://www.google.com/search?q=https://linkedin.com/in/sameerexplorer) :: [ **Portfolio:** sameer.pk ](https://sameer.pk)
-
-
+**Email:** [sameer.cs@proton.me](mailto:sameer.cs@proton.me) **LinkedIn:** [linkedin.com/in/sameerexplorer](https://linkedin.com/in/sameerexplorer) **Portfolio:** [sameer.pk](https://sameer.pk) [WIP]
