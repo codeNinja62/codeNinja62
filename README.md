@@ -54,7 +54,7 @@ const char* active_projects[] = {
 * **Metric:** Achieved **3.01x speedup** on sparse matrix workloads via architectural optimization.
 * **Stack:** C++17, RISC-V ASM, CMake
 
-#### [SentinelFS (Optimized Detection Engine)](https://github.com/codeNinja62/SentinelFS)
+#### [SentinelFS (Optimized Detection Engine)](https://github.com/codeNinja62/SentinelFS-Artifact)
 
 > *Systems Security & FUSE*
 
