@@ -1,84 +1,54 @@
 # Sameer Ahmed
 
-> **Systems Engineer & Embedded Specialist**
-> *Architecting low-latency, memory-safe systems at the hardware-software interface.*
+Final-year CS student at NUST, Pakistan (graduating March 2027). I write systems code in C, C++, Go and TypeScript, and I'm building a track record in open source: Node.js and Appium so far.
 
----
+Everything below links to code you can read and run.
 
-### 0x01 // Engineering Context
+## Selected projects
 
-I am a Computer Science undergraduate specializing in **Systems Programming**, **Embedded Linux**, and **High-Performance Computing**. My philosophy prioritizes rigorous memory management, cache locality, and zero-cost abstractions. I am currently focused on optimizing application-layer logic for bare-metal and kernel-space environments.
+**[Interlock](https://github.com/interlock-ai/interlock)** · TypeScript · my final-year project, in active development
+Early conflict detection for parallel AI coding agents. A local daemon speculatively merges in-flight branches in shadow worktrees and catches conflicts git can't see: merges that apply cleanly but break the typecheck, build or tests. It warns agents through an MCP server and never writes to your repos. While building its file watcher I found a regression in Node's recursive `fs.watch` on Linux, opened [nodejs/node#66791](https://github.com/nodejs/node/issues/66791) and sent the fix in [#66792](https://github.com/nodejs/node/pull/66792).
 
-```c
-// Engineering_Profile.c
+**[SentinelFS](https://github.com/codeNinja62/SentinelFS-Artifact)** · C, libfuse3 · [write-up](https://www.researchgate.net/publication/400550761_SentinelFS_An_Iterative_Design_Study_in_the_Performance_Security_and_Efficiency_of_User-Space_Ransomware_Detection)
+A FUSE filesystem that inspects writes with libmagic and Shannon entropy to catch encryption as it happens. A 100 MB write takes 1.01 s, which the write-up measures as 11.4× native ext4 rather than hiding. Resident memory is 6.9 MB. It also documents a header-spoofing evasion of magic-byte checks.
 
-struct Core_Competencies {
-    const char* systems_design  = "Linux Kernel, Buildroot, FUSE Drivers";
-    const char* hpc             = "Multi-threading (epoll), SIMD, Cycle-Accurate Simulation";
-    const char* security        = "Binary Analysis, Buffer Overflow Mitigation";
-    const char* target_arch     = "RISC-V, x86_64, ARM";
-    
-    Language primary_stack[]    = { CPP_20, C11, RUST, RISCV_ASM };
-};
+**[SparseFlow](https://github.com/codeNinja62/simASP)** · C++17
+A 5-stage pipelined simulator for a RISC-V subset, with custom `LNZ` and `VLOAD` instructions, a direct-mapped cache, a 1-bit branch predictor and a cycle-by-cycle trace. 2.85–2.95× faster than a single-cycle baseline on 1,000-element sparse sums.
 
-// Current_Focus (Feb 2026)
-const char* active_projects[] = {
-    "Cycle-Accurate RISC-V Simulation in C++",
-    "Embedded Linux RootFS Optimization (<50MB)",
-    "Kernel-Bypass Networking (DPDK/epoll)"
-};
+**[LexScript](https://github.com/codeNinja62/LexScript)** · Go
+A compiler that turns contract logic, written as a finite state machine, into formatted Markdown or PDF. Output text comes from fixed templates, so the same input always produces the same document. Ships with a CLI and a VS Code extension.
 
-```
+**[Scrolliosis](https://github.com/codeNinja62/Scrolliosis)** · Kotlin, Jetpack Compose
+An Android app that puts distracting apps behind a quiz written from your own notes. Built on an Accessibility Service, with release CI.
 
----
+## Open source
 
-### 0x02 // Technical Stack
+Merged:
 
-| Domain | Proficiency & Tooling |
-| --- | --- |
-| **User Space** | **C++20** (RAII, Move Semantics), **Rust** (Safety), **C11** (POSIX) |
-| **Kernel/OS** | **Linux Syscalls**, **Buildroot**, **FUSE**, **eBPF**, **Process Scheduling** |
-| **Architecture** | **RISC-V ISA**, **Pipeline Hazards**, **Cache Coherency**, **Memory Models** |
-| **Analysis** | **GDB**, **Valgrind**, **Perf**, **LibMagic**, **CMake**, **Docker** |
+<!-- MERGED:START -->
+| Project | Change | Merged |
+| --- | --- | --- |
+| [DanMcInerney/pymetasploit3](https://github.com/DanMcInerney/pymetasploit3) | [Refactor authentication, payload handling, and fix session/console bugs](https://github.com/DanMcInerney/pymetasploit3/pull/109) | 2025-07-15 |
+<!-- MERGED:END -->
 
----
+In review:
 
-### 0x03 // Selected Engineering Projects
+<!-- OPEN:START -->
+| Project | Change | Opened |
+| --- | --- | --- |
+| [appium/appium-chromium-driver](https://github.com/appium/appium-chromium-driver) | [fix(chrome): detect the Chrome that ChromeDriver will launch on Windows](https://github.com/appium/appium-chromium-driver/pull/474) | 2026-10-17 |
+| [appium/appium-wincore-driver](https://github.com/appium/appium-wincore-driver) | [fix(server): report a closed session window as "no such window"](https://github.com/appium/appium-wincore-driver/pull/107) | 2026-10-17 |
+| [appium/appium-wincore-driver](https://github.com/appium/appium-wincore-driver) | [fix(app): handle omitted and invalid setWindowRect fields](https://github.com/appium/appium-wincore-driver/pull/108) | 2026-10-17 |
+| [nodejs/node](https://github.com/nodejs/node) | [fs: report errors from recursive watch events](https://github.com/nodejs/node/pull/66792) | 2026-10-16 |
+<!-- OPEN:END -->
 
-#### [SparseFlow (Cycle-Accurate Simulator)](https://github.com/codeNinja62/simASP)
+<sub>These tables refresh daily from the GitHub API, so nothing in them is hand-edited.</sub>
 
-> *System Simulation & Architecture*
+## How I work
 
-* **Objective:** Architected a cycle-accurate RISC-V CPU simulator in C++17.
-* **Mechanism:** Modeled a 5-stage pipeline with software-defined hazard detection and custom ISA extensions (LNZ/ZMUL).
-* **Metric:** Achieved **3.01x speedup** on sparse matrix workloads via architectural optimization.
-* **Stack:** C++17, RISC-V ASM, CMake
+<!-- Keep this section only if it is true. -->
+I use AI coding tools. I read, run and can explain every line I submit, and I follow each project's AI policy.
 
-#### [SentinelFS (Optimized Detection Engine)](https://github.com/codeNinja62/SentinelFS-Artifact)
+## Contact
 
-> *Systems Security & FUSE*
-
-* **Objective:** High-performance user-space ransomware detection system.
-* **Mechanism:** Real-time Deep Content Inspection (LibMagic) and Entropy Analysis to detect encryption.
-* **Metric:** **11x Performance Gain** achieved by rewriting core logic from Python to C; < 7MB Memory Footprint.
-* **Stack:** C (libfuse3), Linux API
-
-#### [Minimalist Embedded Distro](https://www.google.com/search?q=https://github.com/codeNinja62/minilinux)
-
-> *OS Development*
-
-* **Objective:** Custom Linux OS build for legacy x86 hardware.
-* **Mechanism:** Replaced glibc with musl, implemented BusyBox, and stripped RootFS.
-* **Metric:** Reduced OS footprint to **< 50MB** with sub-second boot times.
-* **Stack:** Buildroot, Linux Kernel v6.x, BusyBox
-
----
-
-### 0x04 // Connectivity & Metrics
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=codeNinja62&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codeNinja62&layout=compact&theme=transparent&hide_border=true&langs_count=6&hide=html,css,jupyter%20notebook" alt="Top Languages" height="165" />
-</p>
-
-**Email:** [sameer.cs@proton.me](mailto:sameer.cs@proton.me) **LinkedIn:** [linkedin.com/in/sameerexplorer](https://linkedin.com/in/sameerexplorer) **Portfolio:** [sameer.pk](https://sameer.pk) [WIP]
+[sameer.cs@proton.me](mailto:sameer.cs@proton.me) · [LinkedIn](https://linkedin.com/in/sameerexplorer) · [sameer.pk](https://sameer.pk)
