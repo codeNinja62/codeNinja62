@@ -1,6 +1,6 @@
 # Sameer Ahmed
 
-Final-year CS student at NUST, Pakistan (graduating March 2027). I write systems code in C, C++, Go and TypeScript, and I'm building a track record in open source: Node.js and Appium so far.
+Final-year CS student at NUST, Pakistan (graduating March 2027). I write systems code in C, C++, Go and TypeScript.
 
 Everything below links to code you can read and run.
 
