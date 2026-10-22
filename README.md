@@ -28,6 +28,8 @@ Merged:
 <!-- MERGED:START -->
 | Project | Change | Merged |
 | --- | --- | --- |
+| [appium/appium-chromium-driver](https://github.com/appium/appium-chromium-driver) | [fix(chrome): detect the Chrome that ChromeDriver will launch on Windows](https://github.com/appium/appium-chromium-driver/pull/474) | 2026-10-21 |
+| [appium/appium-wincore-driver](https://github.com/appium/appium-wincore-driver) | [fix(app): handle omitted and invalid setWindowRect fields](https://github.com/appium/appium-wincore-driver/pull/108) | 2026-10-20 |
 | [DanMcInerney/pymetasploit3](https://github.com/DanMcInerney/pymetasploit3) | [Refactor authentication, payload handling, and fix session/console bugs](https://github.com/DanMcInerney/pymetasploit3/pull/109) | 2025-07-15 |
 <!-- MERGED:END -->
 
@@ -36,9 +38,7 @@ In review:
 <!-- OPEN:START -->
 | Project | Change | Opened |
 | --- | --- | --- |
-| [appium/appium-chromium-driver](https://github.com/appium/appium-chromium-driver) | [fix(chrome): detect the Chrome that ChromeDriver will launch on Windows](https://github.com/appium/appium-chromium-driver/pull/474) | 2026-10-17 |
 | [appium/appium-wincore-driver](https://github.com/appium/appium-wincore-driver) | [fix(server): report a closed session window as "no such window"](https://github.com/appium/appium-wincore-driver/pull/107) | 2026-10-17 |
-| [appium/appium-wincore-driver](https://github.com/appium/appium-wincore-driver) | [fix(app): handle omitted and invalid setWindowRect fields](https://github.com/appium/appium-wincore-driver/pull/108) | 2026-10-17 |
 | [nodejs/node](https://github.com/nodejs/node) | [fs: report errors from recursive watch events](https://github.com/nodejs/node/pull/66792) | 2026-10-16 |
 <!-- OPEN:END -->
 
