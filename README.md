@@ -46,7 +46,6 @@ In review:
 
 ## How I work
 
-<!-- Keep this section only if it is true. -->
 I use AI coding tools. I read, run and can explain every line I submit, and I follow each project's AI policy.
 
 ## Contact
