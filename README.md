@@ -38,6 +38,8 @@ In review:
 <!-- OPEN:START -->
 | Project | Change | Opened |
 | --- | --- | --- |
+| [appium/appium-wincore-driver](https://github.com/appium/appium-wincore-driver) | [fix(element): report unselectable elements as not selected](https://github.com/appium/appium-wincore-driver/pull/119) | 2026-10-29 |
+| [appium/appium-wincore-driver](https://github.com/appium/appium-wincore-driver) | [fix(server): map the InvalidSelector error code to "invalid selector"](https://github.com/appium/appium-wincore-driver/pull/118) | 2026-10-29 |
 | [paraspell/xcm-tools](https://github.com/paraspell/xcm-tools) | [fix(sdk-dedot): Keep TokenSymbol currency ids as plain strings](https://github.com/paraspell/xcm-tools/pull/2205) | 2026-10-23 |
 | [appium/appium-wincore-driver](https://github.com/appium/appium-wincore-driver) | [fix(server): report a closed session window as "no such window"](https://github.com/appium/appium-wincore-driver/pull/107) | 2026-10-17 |
 | [nodejs/node](https://github.com/nodejs/node) | [fs: report errors from recursive watch events](https://github.com/nodejs/node/pull/66792) | 2026-10-16 |
