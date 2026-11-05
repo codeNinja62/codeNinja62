@@ -41,7 +41,7 @@ In review:
 <!-- OPEN:START -->
 | Project | Change | Opened |
 | --- | --- | --- |
-| [paraspell/xcm-tools](https://github.com/paraspell/xcm-tools) | [fix(sdk-dedot): Keep TokenSymbol currency ids as plain strings](https://github.com/paraspell/xcm-tools/pull/2205) | 2026-10-23 |
+| [paraspell/xcm-tools](https://github.com/paraspell/xcm-tools) | [fix(sdk-dedot): Flatten field-less enums using chain metadata](https://github.com/paraspell/xcm-tools/pull/2205) | 2026-10-23 |
 | [nodejs/node](https://github.com/nodejs/node) | [fs: report errors from recursive watch events](https://github.com/nodejs/node/pull/66792) | 2026-10-16 |
 <!-- OPEN:END -->
 
